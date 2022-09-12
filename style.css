@@ -1,0 +1,169 @@
+body {
+    background-image: 
+    radial-gradient(at 0% 0%, hsla(53, 43%, 75%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(90,21%,62%,1) 0, transparent 100%), 
+    radial-gradient(at 100% 0%, rgb(69, 126, 88) 0, transparent 100%);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+#gameArea {
+    display: flex;
+    flex-direction: left;
+}
+
+#new-game,#start-game
+{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+#musicBtn
+{
+    background-color:grey;
+    border: none;
+}
+
+.gameTitle {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.title {
+    color: rgb(60, 105, 52);
+    font-size: 90px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.createrMessage {
+    color: rgb(244, 244, 223);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.scoreCard {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: rgba(134, 49, 16, 0.7);
+}
+
+.mini-grid {
+    margin-left: 90px;
+}
+.grid {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(113, 160, 98,0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 63px;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+     /*background-color: red;*/
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+} 
+
+.upNext {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(117, 155, 117,0.5);
+    border-radius: 5px;
+}
+
+.upNext div {
+    width: 20px;
+    height: 20px;
+}
+
+.tetromino {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.red {
+    background-color: rgb(173, 16, 16);
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.green {
+    background-color: rgb(32, 90, 32);
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.blue {
+    background-color: rgb(44, 44, 124);
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.brown {
+    background-color: rgb(140, 63, 63);
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.yellow {
+    background-color: rgb(234, 234, 101);
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.purple {
+    background-color: rgb(79, 31, 79);
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.orange {
+    background-color: orange;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
